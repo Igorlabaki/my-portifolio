@@ -8,7 +8,7 @@ interface cardProps{
 
 export default function card(props: cardProps) {
     return (
-        <div className="bg-black text-white rounded-lg overflow-hidden">
+        <div className="bg-black text-darkGray rounded-lg overflow-hidden">
             <div>
                 <img src={`/imgs/${props.imagem}`} alt="" />
             </div>

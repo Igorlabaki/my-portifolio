@@ -4,11 +4,21 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: {
-        "column": "url('/imgs/3-column-preview-card-component.jpg')",
-        "summary": "url('/imgs/order-summary.jpg')",
-        "profile": "url('/imgs/profile-card.jpg')"
-      }
+      backgroundColor: {
+        "darkBlue": "#14213D",
+        "orange": "#FCA311",
+        "darkGray": "#E5E5E5",
+      },
+      textColor: {
+        "darkBlue": "#14213D",
+        "orange": "#FCA311",
+        "darkGray": "#E5E5E5",
+      },
+      borderColor: {
+        "darkBlue": "#14213D",
+        "orange": "#FCA311",
+        "darkGray": "#E5E5E5",
+      },
     },
   },
   variants: {

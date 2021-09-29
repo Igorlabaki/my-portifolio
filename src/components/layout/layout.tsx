@@ -4,7 +4,7 @@ export default function layout(props) {
     return (
         <>
             <Nav></Nav>
-            <div className="flex-1">
+            <div className="flex-1 flex my-10">
                 {props.children}
             </div>
         </>
