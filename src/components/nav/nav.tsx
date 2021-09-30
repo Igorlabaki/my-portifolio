@@ -1,24 +1,28 @@
 import Link from 'next/link'
+import { useRouter } from "next/router";
 
 export default function nav() {
 
     const navList = [
         {href:"/",                text:"Home"},
         {href:"/about",           text:"About"},
-        {href:"/Skills",          text:"Skills"},
-        {href:"/Curriculum",      text:"Curriculum"},
+        {href:"skills",          text:"Skills"},
+        {href:"/curriculum",      text:"Curriculum"},
     ]
 
     function renderNavItems(){
+
+        const router = useRouter()
+
         return (
             navList.map(( e, i )=> {
                 return(
                     <Link href={e.href} key={i}>
-                        <a  className="cursor-pointer hover:text-orange text-lg">{e.text}</a>
+                        <a  className={`cursor-pointer ${e.href == router.query.id ? "text-orange" : false} hover:text-orange text-lg`}>{e.text}</a>
                     </Link>
                 )
             })
-        )
+            )
     }
 
     return (
