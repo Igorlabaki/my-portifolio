@@ -13,8 +13,8 @@ export default function nav() {
         return (
             navList.map(( e, i )=> {
                 return(
-                    <Link href={e.href}>
-                        <a className="cursor-pointer hover:text-orange text-lg" key={i}>{e.text}</a>
+                    <Link href={e.href} key={i}>
+                        <a  className="cursor-pointer hover:text-orange text-lg">{e.text}</a>
                     </Link>
                 )
             })
