@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from "next/router";
 
+
 export default function nav() {
 
     const navList = [
@@ -22,7 +23,7 @@ export default function nav() {
                     </Link>
                 )
             })
-            )
+        )
     }
 
     return (

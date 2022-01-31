@@ -13,19 +13,19 @@ export default function section() {
                 />
                 <Card 
                   title="Stats preview card component" 
-                  urlGithub=""
+                  urlGithub="https://github.com/Igorlabaki/FrontEnd-Mentor__Chalenges/tree/main/stats-preview-card-component-main"
                   urlMentor="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" 
                   imagem="mentor/stats-preview-card.jpg"
                 />
                 <Card 
-                  title="Profile card component" 
-                  urlGithub="" 
+                  title="Tip Calculator" 
+                  urlGithub="https://github.com/Igorlabaki/app-Tip-Calculator" 
                   urlMentor="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" 
-                  imagem="mentor/profile-card.jpg"
+                  imagem="mentor/calc-tip.jpg"
                 />
                  <Card 
                   title="Columns card component" 
-                  urlGithub="" 
+                  urlGithub="https://github.com/Igorlabaki/FrontEnd-Mentor__Chalenges/tree/main/3-column-preview-card-component-main" 
                   urlMentor="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" 
                   imagem="mentor/columns.jpg"
                 />
